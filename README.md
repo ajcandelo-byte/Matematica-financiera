@@ -27,7 +27,7 @@ Si deseas ponerte en contacto conmigo para colaboraciones académicas, consultas
 * **Ubicación:** Cali, Colombia
 * <div style="padding: 15px; border-top: 1px solid #e1e4e8; margin-top: 30px;">
   <p style="font-weight: bold; margin-bottom: 8px;">Contacto & Red Profesional</p>
-  <a href="https://www.linkedin.com/in/ashly-candelo-zapata" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #0a66c2; font-weight: 600;">
+  <a href="https://www.linkedin.com/in/ashly-candelo" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #0a66c2; font-weight: 600;">
     Connect on LinkedIn ↗
   </a>
 </div>
