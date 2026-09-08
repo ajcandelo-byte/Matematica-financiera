@@ -22,5 +22,5 @@ Notas sobre la aplicación de tasas de interés, valor presente y valor futuro e
 
 Si deseas ponerte en contacto conmigo para colaboraciones académicas, consultas sobre asesoría financiera o proyectos:
 
-* **Correo electrónico:** [ashlyjulieth@hotmail.com]
+* **Correo electrónico:** ashlyjulieth@hotmail.com
 * **Ubicación:** Cali, Colombia
