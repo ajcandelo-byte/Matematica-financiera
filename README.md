@@ -9,3 +9,10 @@ Estudiante de Licenciatura en Matemáticas y Banca y Finanzas, apasionada por la
 * Proyectos sociales
 *  Coaching Social y Desarrollo Personal
 *  Power BI
+---
+
+## Publicaciones y Proyectos
+
+### 1. Introducción al Interés Simple y Compuesto
+*Próximamente...*
+Notas sobre la aplicación de tasas de interés, valor presente y valor futuro en operaciones financieras.
