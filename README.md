@@ -16,3 +16,11 @@ Estudiante de Licenciatura en Matemáticas y Banca y Finanzas, apasionada por la
 ### 1. Introducción al Interés Simple y Compuesto
 *Próximamente...*
 Notas sobre la aplicación de tasas de interés, valor presente y valor futuro en operaciones financieras.
+---
+
+## Contacto
+
+Si deseas ponerte en contacto conmigo para colaboraciones académicas, consultas sobre asesoría financiera o proyectos:
+
+* **Correo electrónico:** [ashlyjulieth@hotmail.com]
+* **Ubicación:** Cali, Colombia
