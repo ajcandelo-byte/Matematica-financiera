@@ -6,3 +6,4 @@ Estudiante de Licenciatura en Matemáticas y Banca y Finanzas, apasionada por la
 * Matemática Financiera y Modelos Cuantitativos
 * Asesoría Financiera y Comercial
 * Análisis y Gestión de Datos
+* Proyectos sociales
