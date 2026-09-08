@@ -1,4 +1,4 @@
-# Matematica Financiera
+# Finanzasconmate
 ## Perfil Profesional
 Estudiante de Licenciatura en Matemáticas y Banca y Finanzas, apasionada por la aplicación práctica de los modelos financieros, análisis cuantitativo y la asesoría comercial en el sector financiero.
 
