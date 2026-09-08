@@ -7,3 +7,5 @@ Estudiante de Licenciatura en Matemáticas y Banca y Finanzas, apasionada por la
 * Asesoría Financiera y Comercial
 * Análisis y Gestión de Datos
 * Proyectos sociales
+*  Coaching Social y Desarrollo Personal
+*  Power BI
