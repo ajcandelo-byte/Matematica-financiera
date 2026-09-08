@@ -9,6 +9,7 @@ Estudiante de Licenciatura en Matemáticas y Banca y Finanzas, apasionada por la
 * Proyectos sociales
 *  Coaching Social y Desarrollo Personal
 *  Power BI
+*  Emprendimiento
 ---
 
 ## Publicaciones y Proyectos
