@@ -31,3 +31,4 @@ Si deseas ponerte en contacto conmigo para colaboraciones académicas, consultas
     Connect on LinkedIn ↗
   </a>
 </div>
+
