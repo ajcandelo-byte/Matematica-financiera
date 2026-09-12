@@ -1,184 +1,28 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Matemática Financiera | Finanzasconmate</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 25px; }
-    h1 { color: #0d6efd; text-align: center; margin-bottom: 5px; }
-    .subtitle-header { text-align: center; color: #6c757d; font-size: 1.1em; margin-bottom: 30px; }
-    h2 { color: #1a252c; border-bottom: 2px solid #0d6efd; padding-bottom: 6px; margin-top: 35px; }
-    h3 { color: #495057; }
-    hr { border: 0; height: 1px; background: #e9ecef; margin: 30px 0; }
-    .disclaimer { background: #fff3cd; color: #856404; padding: 15px; border-left: 5px solid #ffeeba; border-radius: 4px; font-size: 0.9em; margin: 20px 0; }
-    .formula { background: #e9ecef; padding: 10px 15px; border-radius: 6px; font-weight: bold; font-family: monospace; }
-    ul { margin-bottom: 20px; }
-    
-    /* Estilos del Simulador */
-    .simulador-box { max-width: 500px; margin: 30px auto; padding: 25px; border-radius: 12px; background-color: #f8f9fa; border: 1px solid #e9ecef; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
-    .form-group { margin-bottom: 15px; }
-    .form-group label { display: block; font-weight: bold; margin-bottom: 5px; color: #495057; }
-    .form-group input, .form-group select { width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ced4da; box-sizing: border-box; font-size: 14px; }
-    .btn-calcular { width: 100%; padding: 12px; background-color: #0d6efd; color: white; border: none; border-radius: 6px; font-weight: bold; font-size: 15px; cursor: pointer; }
-    .btn-calcular:hover { background-color: #0b5ed7; }
-    .resultado-box { margin-top: 20px; padding: 16px; border-radius: 8px; background-color: #ffffff; border: 1px solid #dee2e6; display: none; }
-    
-    /* Estilos de Referencias */
-    .referencias { background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef; font-size: 0.95em; }
-    .referencias p { text-indent: -2em; padding-left: 2em; margin-bottom: 12px; }
-  </style>
-</head>
-<body>
+Finanzasconmate
+Perfil Profesional
+Estudiante de Licenciatura en Matemáticas y Banca y Finanzas, apasionada por la aplicación práctica de los modelos financieros, análisis cuantitativo y la asesoría comercial en el sector financiero.
 
-  <!-- PERFIL PROFESIONAL -->
-  <h1>Matemática Financiera</h1>
-  <div class="subtitle-header"><strong>Finanzasconmate</strong></div>
+Áreas de Interés
+Matemática Financiera y Modelos Cuantitativos
+Asesoría Financiera y Comercial
+Análisis y Gestión de Datos
+Proyectos sociales
+Coaching Social y Desarrollo Personal
+Power BI
+Emprendimiento
+Publicaciones y Proyectos
+1. Introducción al Interés Simple y Compuesto
+Próxima publicación
+2. El club de los números: ¿Quién es quién en ℝ, ℤ, ℚ, 𝕀 y ℝ?
+¡Prepárate para la próxima entrega! Descubriremos de forma interactiva cómo se clasifican los conjuntos numéricos y pondremos a prueba tus conocimientos con un clasificador dinámico de números real.
 
-  <h2>Perfil Profesional</h2>
-  <p>Estudiante de Licenciatura en Matemáticas y Banca y Finanzas, apasionada por la aplicación práctica de los modelos financieros, análisis cuantitativo y la asesoría comercial en el sector financiero.</p>
+📅 Disponible el próximo viernes, 18 de septiembre de 2026
 
-  <h2>Áreas de Interés</h2>
-  <ul>
-    <li>Matemática Financiera y Modelos Cuantitativos</li>
-    <li>Asesoría Financiera y Comercial</li>
-    <li>Análisis y Gestión de Datos</li>
-    <li>Proyectos sociales</li>
-    <li>Coaching Social y Desarrollo Personal</li>
-    <li>Power BI</li>
-    <li>Emprendimiento</li>
-  </ul>
+Contacto
+Si deseas ponerte en contacto conmigo para colaboraciones académicas, consultas sobre asesoría financiera o proyectos:
 
-  <h2>Publicaciones y Proyectos</h2>
-  <p><strong>1. Introducción al Interés Simple y Compuesto: El Valor del Dinero en el Tiempo</strong></p>
+Correo electrónico: ashlyjulieth@hotmail.com
+Ubicación: Cali, Colombia
+Contacto & Red Profesional
 
-  <hr>
-
-  <!-- CONTENIDO ACADÉMICO -->
-  <h2>Más allá del Interés: Cómo el Valor del Dinero en el Tiempo Gobierna tus Finanzas</h2>
-
-  <div class="disclaimer">
-    <strong>Aviso Legal y Exención de Responsabilidad:</strong> El contenido publicado en este artículo y las proyecciones del simulador interactivo tienen fines strictly informativos y educativos. No constituyen asesoramiento financiero, legal o de inversión formal.
-  </div>
-
-  <h3>1. El Valor del Dinero en el Tiempo (VDT)</h3>
-  <p>El valor del dinero cambia de forma continua debido a factores como la inflación, el riesgo financiero y el costo de oportunidad. Un monto disponible hoy posee mayor capacidad adquisitiva que esa misma cantidad recibida en el futuro, pues el capital actual puede invertirse para generar rendimientos (Gitman & Zutter, 2012).</p>
-
-  <h3>2. Las Tasas de Interés</h3>
-  <p>El interés representa el costo del capital o la rentabilidad obtenida por ceder recursos financieros en un periodo determinado.</p>
-  <ul>
-    <li><strong>Interés simple:</strong> Rendimiento calculado exclusivamente sobre el capital inicial (UNAM, 2020).</li>
-    <li><strong>Interés compuesto:</strong> Proceso de capitalización en el que los intereses devengados se integran al capital principal para generar nuevos intereses en cada periodo (Redalyc, 2018).</li>
-  </ul>
-
-  <h3>3. Fórmulas de Valor Futuro y Valor Presente</h3>
-  <p><strong>Valor Futuro (VF):</strong> Monto que alcanzará un capital inicial al final de un horizonte temporal tras aplicar una tasa de interés determinada.</p>
-  <p class="formula">VF = VP × (1 + i)^n</p>
-
-  <p><strong>Valor Presente (VP):</strong> Equivalente actual de un capital que se recibirá o pagará en una fecha futura a una tasa de descuento específica.</p>
-  <p class="formula">VP = VF / (1 + i)^n</p>
-
-  <!-- SIMULADOR INTERACTIVO -->
-  <div class="simulador-box">
-    <h3 style="margin-top:0; text-align: center;">Simulador Interactivo Financiero</h3>
-    
-    <div class="form-group">
-      <label>¿Qué deseas calcular?</label>
-      <select id="tipoCalculo" onchange="cambiarModo()">
-        <option value="VF">Valor Futuro (VF) a partir de un Capital Inicial</option>
-        <option value="VP">Valor Presente (VP) necesario para una Meta Futura</option>
-      </select>
-    </div>
-
-    <div class="form-group">
-      <label id="lblMonto">Valor Presente (VP / Capital Inicial):</label>
-      <input type="number" id="monto" value="1000000">
-    </div>
-
-    <div class="form-group">
-      <label>Tasa de Interés Anual (%):</label>
-      <input type="number" id="tasa" value="10" step="0.1">
-    </div>
-
-    <div class="form-group">
-      <label>Plazo (Años):</label>
-      <input type="number" id="anios" value="5">
-    </div>
-
-    <button class="btn-calcular" onclick="calcularSimulacion()">Calcular Ahora</button>
-
-    <div id="resultado" class="resultado-box">
-      <p style="margin: 0 0 8px 0; font-size: 13px; color: #6c757d; text-transform: uppercase;">Resultado estimado:</p>
-      <p style="margin: 0; font-size: 18px; font-weight: bold; color: #198754;"><span id="lblResultadoTitulo">Valor Futuro (VF):</span> <span id="valCalculado">$0</span></p>
-      <p style="margin: 6px 0 0 0; font-size: 14px; color: #0d6efd;"><span id="lblDetalleTitulo">Intereses Generados:</span> <span id="valDiferencia">$0</span></p>
-    </div>
-  </div>
-
-  <h3>4. Referencias Académicas (Normas APA 7)</h3>
-  <div class="referencias">
-    <p>Gitman, L. J., & Zutter, C. J. (2012). <em>Principios de administración financiera</em> (12.ª ed.). Pearson Educación.</p>
-    <p>Redalyc. (2018). <em>Análisis de las tasas de interés y su impacto en las matemáticas financieras</em>. Red de Revistas Científicas de América Latina y el Caribe, España y Portugal.</p>
-    <p>Universidad Nacional Autónoma de México [UNAM]. (2020). <em>Fundamentos de matemáticas financieras e interés compuesto</em>. Facultad de Contaduría y Administración.</p>
-  </div>
-
-  <!-- ANUNCIO DEL PRÓXIMO TEMA -->
-  <div style="background-color: #e7f1ff; border-left: 5px solid #0d6efd; padding: 20px; border-radius: 8px; margin: 35px 0;">
-    <span style="background-color: #0d6efd; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold; text-transform: uppercase;">Próxima publicación</span>
-    <h3 style="color: #0d6efd; margin-top: 10px; margin-bottom: 8px;">3. El club de los números: ¿Quién es quién en N, Z, Q, I y R?</h3>
-    <p style="margin-bottom: 10px;">¡Prepárate para la próxima entrega! Descubriremos de forma interactiva cómo se clasifican los conjuntos numéricos y pondremos a prueba tus conocimientos con un clasificador dinámico.</p>
-    <p style="margin: 0; font-weight: bold; color: #495057;">📅 Disponible el próximo viernes, 18 de septiembre de 2026</p>
-  </div>
-
-  <h2>Contacto</h2>
-  <p>Si deseas ponerte en contacto conmigo para colaboraciones académicas, consultas sobre asesoría financiera o proyectos:</p>
-  <ul>
-    <li><strong>Correo electrónico:</strong> ashlyjulieth@hotmail.com</li>
-    <li><strong>Ubicación:</strong> Cali, Colombia</li>
-  </ul>
-
-  <script>
-    function cambiarModo() {
-      const modo = document.getElementById('tipoCalculo').value;
-      const lblMonto = document.getElementById('lblMonto');
-      if (modo === 'VF') {
-        lblMonto.innerText = 'Valor Presente (VP / Capital Inicial):';
-      } else {
-        lblMonto.innerText = 'Valor Futuro deseado (VF / Meta Futura):';
-      }
-      document.getElementById('resultado').style.display = 'none';
-    }
-
-    function calcularSimulacion() {
-      const modo = document.getElementById('tipoCalculo').value;
-      const monto = parseFloat(document.getElementById('monto').value);
-      const tasa = parseFloat(document.getElementById('tasa').value) / 100;
-      const anios = parseFloat(document.getElementById('anios').value);
-
-      if (isNaN(monto) || isNaN(tasa) || isNaN(anios) || monto <= 0 || anios <= 0) {
-        alert("Por favor ingresa valores válidos.");
-        return;
-      }
-
-      let resultadoFinal = 0;
-      let diferencia = 0;
-
-      if (modo === 'VF') {
-        resultadoFinal = monto * Math.pow((1 + tasa), anios);
-        diferencia = resultadoFinal - monto;
-        document.getElementById('lblResultadoTitulo').innerText = 'Valor Futuro (VF):';
-        document.getElementById('lblDetalleTitulo').innerText = 'Intereses Ganados:';
-      } else {
-        resultadoFinal = monto / Math.pow((1 + tasa), anios);
-        diferencia = monto - resultadoFinal;
-        document.getElementById('lblResultadoTitulo').innerText = 'Valor Presente requerido (VP):';
-        document.getElementById('lblDetalleTitulo').innerText = 'Descuento / Rendimiento total:';
-      }
-
-      document.getElementById('valCalculado').innerText = "$" + resultadoFinal.toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-      document.getElementById('valDiferencia').innerText = "$" + diferencia.toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-      document.getElementById('resultado').style.display = 'block';
-    }
-  </script>
-
-</body>
-</html>
+Connect on LinkedIn ↗
