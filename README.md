@@ -127,7 +127,7 @@
     </div>
   </div>
 
-  <h3>4. Referencias Académicas (Normas APA 7)</h3>
+  <h3>4. Referencias Académicas </h3>
   <div class="referencias">
     <p>Gitman, L. J., & Zutter, C. J. (2012). <em>Principios de administración financiera</em> (12.ª ed.). Pearson Educación.</p>
     <p>Redalyc. (2018). <em>Análisis de las tasas de interés y su impacto en las matemáticas financieras</em>. Red de Revistas Científicas de América Latina y el Caribe, España y Portugal.</p>
