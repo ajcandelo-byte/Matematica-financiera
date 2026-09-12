@@ -67,27 +67,9 @@
   <h2>Publicaciones y Proyectos</h2>
   <p><strong>1. Introducción al Interés Simple y Compuesto: El Valor del Dinero en el Tiempo</strong></p>
 
-  <hr>
-
-  <h2 id="teoria">Más allá del Interés: Cómo el Valor del Dinero en el Tiempo Gobierna tus Finanzas</h2>
-
-  <div class="disclaimer">
-    <strong>Aviso Legal y Exención de Responsabilidad:</strong> El contenido publicado en este artículo y las proyecciones del simulador interactivo tienen fines estrictamente informativos y educativos. No constituyen asesoramiento financiero, legal o de inversión formal.
-  </div>
-
+ 
   <h3>1. El Valor del Dinero en el Tiempo (VDT)</h3>
-  <p>El valor del dinero cambia de forma continua debido a factores como la inflación, el riesgo financiero y el costo de oportunidad. Un monto disponible hoy posee mayor capacidad adquisitiva que esa misma cantidad recibida en el futuro, pues el capital actual puede invertirse para generar rendimientos (Gitman & Zutter, 2012).</p>
-
-  <h3>2. Las Tasas de Interés</h3>
-  <p>El interés representa el costo del capital o la rentabilidad obtenida por ceder recursos financieros en un periodo determinado.</p>
-  <ul>
-    <li><strong>Interés simple:</strong> Rendimiento calculated exclusivamente sobre el capital inicial (UNAM, 2020).</li>
-    <li><strong>Interés compuesto:</strong> Proceso de capitalización en el que los intereses devengados se integran al capital principal para generar nuevos intereses en cada periodo (Redalyc, 2018).</li>
-  </ul>
-
-  <h3>3. Fórmulas de Valor Futuro y Valor Presente</h3>
-  <p><strong>Valor Futuro (VF):</strong> Monto que alcanzará un capital inicial al final de un horizonte temporal tras aplicar una tasa de interés determinada.</p>
-  <p class="formula">VF = VP × (1 + i)^n</p>
+ 
 
   <p><strong>Valor Presente (VP):</strong> Equivalente actual de un capital que se recibirá o pagará en una fecha futura a una tasa de descuento específica.</p>
   <p class="formula">VP = VF / (1 + i)^n</p>
