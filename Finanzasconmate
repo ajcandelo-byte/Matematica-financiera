@@ -30,8 +30,7 @@
     .resultado-box { margin-top: 20px; padding: 16px; border-radius: 8px; background-color: #ffffff; border: 1px solid #dee2e6; display: none; }
     
     .referencias { background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef; font-size: 0.95em; }
-    .referencias p { text-indent: -2em; padding-left: 2em; margin-bottom: 12px; }
-
+    .referencias p { text-indent: - 2em; padding-left: 2em; margin-bottom: 12px; }
     .btn-back-top { position: fixed; bottom: 20px; right: 20px; background-color: #0d6efd; color: white; border: none; padding: 10px 16px; border-radius: 20px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); text-decoration: none; display: inline-block; }
     .btn-back-top:hover { background-color: #0b5ed7; }
   </style>
