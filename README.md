@@ -37,6 +37,7 @@
     .btn-back-top { position: fixed; bottom: 20px; right: 20px; background-color: #0d6efd; color: white; border: none; padding: 10px 16px; border-radius: 20px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); text-decoration: none; display: inline-block; }
     .btn-back-top:hover { background-color: #0b5ed7; }
   </style>
+  
 </head>
 <body id="inicio">
 
