@@ -6,7 +6,20 @@
   <title>Matemática Financiera | Finanzasconmate</title>
   <style>
     html { scroll-behavior: smooth; }
-    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 25px; padding-top: 70px; }
+   body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 25px;
+    padding-top: 70px;
+    
+    /* Agrega estas propiedades */
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
     
     nav.nav-bar { position: fixed; top: 0; left: 0; right: 0; background-color: #0d6efd; padding: 12px 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); z-index: 1000; text-align: center; }
     nav.nav-bar a { color: white; text-decoration: none; font-weight: bold; margin: 0 12px; font-size: 14px; }
@@ -17,17 +30,19 @@
     h2 { color: #1a252c; border-bottom: 2px solid #0d6efd; padding-bottom: 6px; margin-top: 35px; }
     h3 { color: #495057; }
     hr { border: 0; height: 1px; background: #e9ecef; margin: 30px 0; }
-    .disclaimer { background: #fff3cd; color: #856404; padding: 15px; border-left: 5px solid #ffeeba; border-radius: 4px; font-size: 0.9em; margin: 20px 0; }
-    .formula { background: #e9ecef; padding: 10px 15px; border-radius: 6px; font-weight: bold; font-family: monospace; }
+    ./* Cambia esto: */
+.referencias p { text-indent: -2em; padding-left: 2em; margin-bottom: 12px; }
+
+/* Por esto: */
+.referencias p { margin-bottom: 12px; word-break: break-word; }
     ul { margin-bottom: 20px; }
     
-    .simulador-box { max-width: 500px; margin: 30px auto; padding: 25px; border-radius: 12px; background-color: #f8f9fa; border: 1px solid #e9ecef; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
-    .form-group { margin-bottom: 15px; }
-    .form-group label { display: block; font-weight: bold; margin-bottom: 5px; color: #495057; }
-    .form-group input, .form-group select { width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ced4da; box-sizing: border-box; font-size: 14px; }
-    .btn-calcular { width: 100%; padding: 12px; background-color: #0d6efd; color: white; border: none; border-radius: 6px; font-weight: bold; font-size: 15px; cursor: pointer; }
-    .btn-calcular:hover { background-color: #0b5ed7; }
-    .resultado-box { margin-top: 20px; padding: 16px; border-radius: 8px; background-color: #ffffff; border: 1px solid #dee2e6; display: none; }
+    .simulador-box {
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    /* ... resto de estilos ... */
+}
     
     .referencias { background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef; font-size: 0.95em; }
     .referencias p { text-indent: - 2em; padding-left: 2em; margin-bottom: 12px; }
