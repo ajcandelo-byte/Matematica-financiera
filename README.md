@@ -71,9 +71,6 @@
   <h3>1. El Valor del Dinero en el Tiempo (VDT)</h3>
  
 
-  <p><strong>Valor Presente (VP):</strong> Equivalente actual de un capital que se recibirá o pagará en una fecha futura a una tasa de descuento específica.</p>
-  <p class="formula">VP = VF / (1 + i)^n</p>
-
  
 
   <div id="proximo" style="background-color: #e7f1ff; border-left: 5px solid #0d6efd; padding: 20px; border-radius: 8px; margin: 35px 0;">
