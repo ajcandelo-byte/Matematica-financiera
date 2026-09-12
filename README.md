@@ -67,12 +67,6 @@
   <h2>Publicaciones y Proyectos</h2>
   <p><strong>1. Introducción al Interés Simple y Compuesto: El Valor del Dinero en el Tiempo</strong></p>
 
- 
-  <h3>1. El Valor del Dinero en el Tiempo (VDT)</h3>
- 
-
- 
-
   <div id="proximo" style="background-color: #e7f1ff; border-left: 5px solid #0d6efd; padding: 20px; border-radius: 8px; margin: 35px 0;">
     <span style="background-color: #0d6efd; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold; text-transform: uppercase;">Próxima publicación</span>
     <h3 style="color: #0d6efd; margin-top: 10px; margin-bottom: 8px;">2. El club de los números: ¿Quién es quién en ℝ, ℤ, ℚ, 𝕀 y ℝ?</h3>
