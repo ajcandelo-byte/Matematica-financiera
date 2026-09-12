@@ -4,12 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matemática Financiera | Finanzasconmate</title>
- 
+  
   <style>
+    
     html { scroll-behavior: smooth; }
     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 25px; padding-top: 70px; }
     
+    
     /* Navegación superior */
+    
+    
     nav.nav-bar { position: fixed; top: 0; left: 0; right: 0; background-color: #0d6efd; padding: 12px 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); z-index: 1000; text-align: center; }
     nav.nav-bar a { color: white; text-decoration: none; font-weight: bold; margin: 0 12px; font-size: 14px; }
     nav.nav-bar a:hover { text-decoration: underline; }
@@ -36,9 +40,11 @@
 
     .btn-back-top { position: fixed; bottom: 20px; right: 20px; background-color: #0d6efd; color: white; border: none; padding: 10px 16px; border-radius: 20px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); text-decoration: none; display: inline-block; }
     .btn-back-top:hover { background-color: #0b5ed7; }
+    
   </style>
   
 </head>
+
 <body id="inicio">
 
   <nav class="nav-bar">
