@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+  
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matemática Financiera | Finanzasconmate</title>
+  
   
   <style>
     
@@ -11,7 +13,7 @@
     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 25px; padding-top: 70px; }
     
     
-    /* Navegación superior */
+     /* Navegación superior */
     
     
     nav.nav-bar { position: fixed; top: 0; left: 0; right: 0; background-color: #0d6efd; padding: 12px 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); z-index: 1000; text-align: center; }
