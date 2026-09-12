@@ -92,47 +92,7 @@
   <p><strong>Valor Presente (VP):</strong> Equivalente actual de un capital que se recibirá o pagará en una fecha futura a una tasa de descuento específica.</p>
   <p class="formula">VP = VF / (1 + i)^n</p>
 
-  <div class="simulador-box" id="simulador">
-    <h3 style="margin-top:0; text-align: center;">Simulador Interactivo Financiero</h3>
-    
-    <div class="form-group">
-      <label>¿Qué deseas calcular?</label>
-      <select id="tipoCalculo" onchange="cambiarModo()">
-        <option value="VF">Valor Futuro (VF) a partir de un Capital Inicial</option>
-        <option value="VP">Valor Presente (VP) necesario para una Meta Futura</option>
-      </select>
-    </div>
-
-    <div class="form-group">
-      <label id="lblMonto">Valor Presente (VP / Capital Inicial):</label>
-      <input type="number" id="monto" value="1000000">
-    </div>
-
-    <div class="form-group">
-      <label>Tasa de Interés Anual (%):</label>
-      <input type="number" id="tasa" value="10" step="0.1">
-    </div>
-
-    <div class="form-group">
-      <label>Plazo (Años):</label>
-      <input type="number" id="anios" value="5">
-    </div>
-
-    <button class="btn-calcular" onclick="calcularSimulacion()">Calcular Ahora</button>
-
-    <div id="resultado" class="resultado-box">
-      <p style="margin: 0 0 8px 0; font-size: 13px; color: #6c757d; text-transform: uppercase;">Resultado estimado:</p>
-      <p style="margin: 0; font-size: 18px; font-weight: bold; color: #198754;"><span id="lblResultadoTitulo">Valor Futuro (VF):</span> <span id="valCalculado">$0</span></p>
-      <p style="margin: 6px 0 0 0; font-size: 14px; color: #0d6efd;"><span id="lblDetalleTitulo">Intereses Generados:</span> <span id="valDiferencia">$0</span></p>
-    </div>
-  </div>
-
-  <h3>4. Referencias Académicas </h3>
-  <div class="referencias">
-    <p>Gitman, L. J., & Zutter, C. J. (2012). <em>Principios de administración financiera</em> (12.ª ed.). Pearson Educación.</p>
-    <p>Redalyc. (2018). <em>Análisis de las tasas de interés y su impacto en las matemáticas financieras</em>. Red de Revistas Científicas de América Latina y el Caribe, España y Portugal.</p>
-    <p>Universidad Nacional Autónoma de México [UNAM]. (2020). <em>Fundamentos de matemáticas financieras e interés compuesto</em>. Facultad de Contaduría y Administración.</p>
-  </div>
+ 
 
   <div id="proximo" style="background-color: #e7f1ff; border-left: 5px solid #0d6efd; padding: 20px; border-radius: 8px; margin: 35px 0;">
     <span style="background-color: #0d6efd; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold; text-transform: uppercase;">Próxima publicación</span>
@@ -163,37 +123,8 @@
       document.getElementById('resultado').style.display = 'none';
     }
 
-    function calcularSimulacion() {
-      const modo = document.getElementById('tipoCalculo').value;
-      const monto = parseFloat(document.getElementById('monto').value);
-      const tasa = parseFloat(document.getElementById('tasa').value) / 100;
-      const anios = parseFloat(document.getElementById('anios').value);
-
-      if (isNaN(monto) || isNaN(tasa) || isNaN(anios) || monto <= 0 || anios <= 0) {
-        alert("Por favor ingresa valores válidos.");
-        return;
-      }
-
-      let resultadoFinal = 0;
-      let diferencia = 0;
-
-      if (modo === 'VF') {
-        resultadoFinal = monto * Math.pow((1 + tasa), anios);
-        diferencia = resultadoFinal - monto;
-        document.getElementById('lblResultadoTitulo').innerText = 'Valor Futuro (VF):';
-        document.getElementById('lblDetalleTitulo').innerText = 'Intereses Ganados:';
-      } else {
-        resultadoFinal = monto / Math.pow((1 + tasa), anios);
-        diferencia = monto - resultadoFinal;
-        document.getElementById('lblResultadoTitulo').innerText = 'Valor Presente requerido (VP):';
-        document.getElementById('lblDetalleTitulo').innerText = 'Descuento / Rendimiento total:';
-      }
-
-      document.getElementById('valCalculado').innerText = "$" + resultadoFinal.toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-      document.getElementById('valDiferencia').innerText = "$" + diferencia.toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-      document.getElementById('resultado').style.display = 'block';
-    }
-  </script>
+    
+    
 
 </body>
 </html>
