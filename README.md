@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matemática Financiera | Finanzasconmate</title>
+ 
   <style>
     html { scroll-behavior: smooth; }
     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 25px; padding-top: 70px; }
