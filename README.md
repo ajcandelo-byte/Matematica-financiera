@@ -15,8 +15,13 @@ Estudiante de Licenciatura en Matemáticas y Banca y Finanzas, apasionada por la
 ## Publicaciones y Proyectos
 
 ### 1. Introducción al Interés Simple y Compuesto
-*Próximamente...*
-Notas sobre la aplicación de tasas de interés, valor presente y valor futuro en operaciones financieras.
+<!-- ANUNCIO DEL PRÓXIMO TEMA -->
+  <div style="background-color: #e7f1ff; border-left: 5px solid #0d6efd; padding: 20px; border-radius: 8px; margin: 35px 0;">
+    <span style="background-color: #0d6efd; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold; text-transform: uppercase;">Próxima publicación</span>
+    <h3 style="color: #0d6efd; margin-top: 10px; margin-bottom: 8px;">2. El club de los números: ¿Quién es quién en ℝ, ℤ, ℚ, 𝕀 y ℝ?</h3>
+    <p style="margin-bottom: 10px;">¡Prepárate para la próxima entrega! Descubriremos de forma interactiva cómo se clasifican los conjuntos numéricos y pondremos a prueba tus conocimientos con un clasificador dinámico de números real.</p>
+    <p style="margin: 0; font-weight: bold; color: #495057;">📅 Disponible el próximo viernes, 18 de septiembre de 2026</p>
+  </div>
 ---
 
 ## Contacto
